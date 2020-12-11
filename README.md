@@ -48,8 +48,8 @@ source "package/rockchip/rkmedia_zbar_scanner/Config.in"
 BR2_PACKAGE_RKMEDIA_ZBAR_SCANNER=y
 ```
 
-6. 在 buildroot 目录执行 `make rkmedia_zbar_scanner` 编译程序，最终可执行文件被安装到 buildroot/output 的目标目录下。
-7. 如果在 external/rkmedia_zbar_scanner 中修改完代码需要重新编译，可执行：
+7. 在 buildroot 目录执行 `make rkmedia_zbar_scanner` 编译程序，最终可执行文件被安装到 buildroot/output 的目标目录下。
+8. 如果在 external/rkmedia_zbar_scanner 中修改完代码需要重新编译，可执行：
 
 ```shell
 source envsetup.sh
